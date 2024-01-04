@@ -53,8 +53,8 @@ const Navbar = () => {
     tempsearchinput = searchnames
 
     const handleinputvalue = (e: any) => {
-        if (e.key == 'Enter') {
-            setsearchNames(inputvalue.current.value);
+        if (e.key == 'Enter' && inputvalue.current != undefined) {
+            setsearchNames(inputvalue.current?.value);
             // console.log(searchnames);
             // setSearchBarVisible(false)
 
@@ -88,10 +88,10 @@ const Navbar = () => {
 
             })
         generselected = value
-        const mainheadings = document.getElementsByClassName('mainheading');
-        const maindesc = document.getElementsByClassName('maindesc');
-        const start = document.getElementsByClassName('start');
-        const searchedgener = document.getElementsByClassName('searchedgener');
+        const mainheadings = document.getElementsByClassName('mainheading') as any;
+        const maindesc = document.getElementsByClassName('maindesc') as any;
+        const start = document.getElementsByClassName('start') as any;
+        const searchedgener = document.getElementsByClassName('searchedgener') as any;
         // const singlemovieactor = document.getElementsByClassName('singlemovieactor');
         // const singlemovie = document.getElementsByClassName('singlemovie');
 
@@ -139,7 +139,7 @@ const Navbar = () => {
     //     }, 500);
     // };
 
-    const handlelogout=()=>{
+    const handlelogout = () => {
         nav('/')
     }
     return (

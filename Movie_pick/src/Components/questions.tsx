@@ -13,4 +13,4 @@ export const options =[
     ["Yes i would like to choose the rating that I'm okay with", "No, it doesn't matter"],
     ["G-Rated: All ages admitted.", "PG-Rated: Some material may not be suitable for children.", "PG-13-Rated: Some material may be inappropriate for children under 13.", "R-Rated: Under 17 requires accompanying parent or adult guardian."],
     ["I don't have a preference.", "Movies based on a true story", "Movies that may change the way you look at life", "Movies set in New York City", "Spy Movies and Cop Movies", "Space Movies", "Wedding Movies", "Heist Movies", "Movies based on a book", "Racing Movies", "Girl Power Movies", "Movies set in Las Vegas", "Movies with pre- or sequels", "IMDb Top 250 Movies"],
-]
+] 
