@@ -1,0 +1,66 @@
+.mainuserUI{
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainuserUI h1{
+    color: white;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    color: crimson;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    /* height: 500px; */
+   
+}
+.login input{
+    padding: 10px 60px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid crimson;
+}
+.login button{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+}
+.login button:hover{
+    background-color: rgb(137, 6, 32);
+}
+.signup button{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+}
+.signup button:hover{
+    background-color: rgb(137, 6, 32);
+}
+.signup input{
+    padding: 10px 60px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid crimson;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    color: white;
+    border: 2px solid white;
+    /* height: 500px; */
+}

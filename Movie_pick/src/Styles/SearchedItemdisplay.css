@@ -1,0 +1,30 @@
+.searcheddisplay{
+    padding: 30px;
+}
+.moviedetail{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px white;
+    color: white;
+    font-size: 20px;
+    
+}
+.moviecon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.searchheading{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.moviecon p a{
+    color: white;
+}

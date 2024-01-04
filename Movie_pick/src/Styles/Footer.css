@@ -1,0 +1,49 @@
+.mainfooter{
+    
+    border-top: 1px solid white;
+    box-shadow: 1px 1px 10px white;
+    backdrop-filter: blur(10px);
+   
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    
+}
+
+.footer div h1{
+    font-size: 50px;
+    color: crimson;
+    padding: 5px;
+}
+.footer div h4{
+    font-size: 25px;
+}
+
+.footercon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 22px;
+    padding: 40px;
+   
+   
+}
+.footercon ul{
+    padding: 10px 20px;
+    
+}
+.lastfooter{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    opacity: 0.8;
+    padding: 20px 0px;
+    border-top: 2px solid white;
+    
+  }

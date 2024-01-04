@@ -1,0 +1,50 @@
+.howareyou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+    gap: 40px;
+}
+.question1{
+    font-size: 20px;
+    color: white;
+}
+.feelings{
+    display: flex;
+    gap: 10px;
+}
+.feelings div{
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+}
+.feelings div i{
+   font-size: 140px;
+   padding: 20px 0px;
+}
+.feelings div h3{
+    color: white;
+}
+#nextbutton{
+    padding: 10px 200px;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: crimson;
+}
+#nextbutton:hover{
+    background-color: rgb(138, 9, 34);
+}
+.quiz{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 90px;
+    justify-content: center;
+}
+.quiz form div div{
+    display: flex;
+}

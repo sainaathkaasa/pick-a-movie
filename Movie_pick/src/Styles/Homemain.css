@@ -1,0 +1,68 @@
+.mainhomecon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 60px 10px;
+    color: white;
+    row-gap: 30px;
+}
+.mainheading{
+    font-size: 30px;
+    text-shadow: 1px 1px 5px white;
+}
+.maindesc{
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+}
+.searchedgener h2 a{
+    color: white;
+}
+.start a button{
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px white;
+    cursor: pointer;
+    background-color: crimson;
+}
+.start a button:hover{
+    background-color: rgb(138, 3, 30);
+}
+.space{
+    color: white;
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+   
+}
+.singlemovie:hover{
+    box-shadow: 1px 1px 4px white;
+}
+.singlemovie{
+    border: 1px solid white;
+    
+}
+.singlemovieactor{
+    border: 1px solid white;
+}
+.movieCon{
+    padding: 10px;
+    width: 200px;
+}
+.singlemoviename{
+    font-size: 20px;
+}
+.singlemoviename:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.movieposter{
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+}

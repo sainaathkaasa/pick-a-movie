@@ -1,0 +1,31 @@
+.spaces{
+    color: white;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+   
+}
+
+.singlemovieactor{
+    border: 1px solid white;
+}
+.singlemovieactor:hover{
+    box-shadow: 1px 1px 4px white;
+}
+.movieCon{
+    padding: 10px;
+    width: 200px;
+}
+.singlemoviename{
+    font-size: 20px;
+}
+.singlemoviename:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.movieposter{
+    display: flex;
+    justify-content: center;
+}

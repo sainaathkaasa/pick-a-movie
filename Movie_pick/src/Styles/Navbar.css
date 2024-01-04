@@ -1,0 +1,146 @@
+ .headnav {
+     width: 100%;
+     /* background-color: brown; */
+     display: flex;
+     padding: 10px;
+     border-bottom: 2px solid white;
+     box-shadow: 1px 1px 10px white;
+     justify-content: center;
+     align-items: center;
+     filter: blur(0.3px);
+    
+ }
+
+ .headnav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://pickamovieforme.b-cdn.net/wp-content/uploads/2020/06/bg2.jpg') center center/cover no-repeat; 
+    filter: blur(10px);
+    z-index: -1;
+}
+
+ .logo {
+     width: 40%;
+     color: white;
+
+ }
+ .logo:hover{
+    opacity: 0.4;
+ }
+
+ .navcon {
+     width: 50%;
+     color: white;
+     display: flex;
+     gap: 10px;
+
+ }
+
+ .TopGeners,
+ .TopActors {
+     color: white;
+     font-size: 17px;
+     border: none;
+     /* background-color: black; */
+     padding: 0px 10px;
+ }
+
+ .navcon div a {
+     text-decoration: none;
+     color: white;
+ }
+ .navcon div a :hover{
+    border-bottom: 2px solid crimson;
+ }
+
+ .socialnetwork {
+     width: 10%;
+     color: white;
+ }
+
+ .search-bar-container .search-icon {
+     display: flex;
+     padding: 0px 30px;
+ }
+
+ .fa-solid {
+     color: white;
+
+ }
+
+ .socialnetwork {
+     display: flex;
+     gap: 20px;
+ }
+
+ .search-bar-container {
+     position: relative;
+ }
+
+ .search-icon {
+     cursor: pointer;
+ }
+
+ .search-input {
+     position: absolute;
+     top: 50px;
+     left: -130px;
+     width: 180px;
+     padding: 10px;
+     border: 1px solid #ccc;
+     display: block;
+     color: white;
+     background-color: transparent;
+ }
+
+ .dropdown {
+    position: relative; 
+  }
+  
+  .selected-option {
+    /* position: absolute; */
+    cursor: pointer;
+    font-size: 18px;
+    /* height: 70px; */
+   
+  }
+  
+  .options {
+    display: none;
+    position: absolute;
+    background-color: rgb(56, 55, 55);
+    top:  100%;
+    left: 0;
+    font-size: 18px;
+    /* border: 1px solid white; */
+    box-shadow: 1px 1px 4px white;
+    
+  }
+  .option {
+    padding: 10px 60px;
+    cursor: pointer;
+    border-bottom: 2px solid crimson;
+    backdrop-filter: blur(8px);
+  }
+  .dropdown:hover .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .logout{
+    padding: 10px;
+  }
+  .logoutbut{
+    padding: 4px 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+  }
+  .logoutbut:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 6px white;
+  }
+ 
