@@ -31,17 +31,19 @@ const Loginpage = () => {
     // const singupUser = () => {
     //     setShow(true);
     // }
-  console.log(loginmail?.current?.value)
     const signinUser = () => {
-        console.log(loginmail.current.value,loginpass.current.value)
-        if (loginmail.current.value.length > 0 && loginpass.current.value.length > 0){
-            userdb.map((val:any)=>{
-                console.log(val.emailvalue, val.passvalue)
-                if(loginmail.current.value === val.emailvalue && loginpass.current.value === val.passvalue){
-                    console.log("success");
-                    nav('/mainpage');
-                }
-            })
+        // console.log(loginmail.current.value,loginpass.current.value)
+        if(loginmail.current!=null)
+        {
+            if (loginmail.current.value.length > 0 && loginpass.current.value.length > 0){
+                userdb.map((val:any)=>{
+                    console.log(val.emailvalue, val.passvalue)
+                    if(loginmail.current.value === val.emailvalue && loginpass.current.value === val.passvalue){
+                        console.log("success");
+                        nav('/mainpage');
+                    }
+                })
+            }
         }
         loginmail.current.value = ''
         loginpass.current.value = ''
